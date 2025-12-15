@@ -1,0 +1,38 @@
+
+body {
+    background-color: black;
+    margin-top: 20px;
+}
+
+p {
+    display: inline-block;  
+    letter-spacing: 50px;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+        margin-top: 0;
+
+
+    border-bottom: 20px solid lightblue;  
+
+    width: 60%;           
+    text-align: center;
+}
+.top {
+    margin-top: 10px;
+}
+a {
+    display: inline-block;
+    margin-top: 40px;
+
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+    text-decoration: none;
+    
+   
+}
+
