@@ -1,0 +1,50 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 20px;
+    border-radius: 20px
+}
+#display {
+    width: 100%;
+    height: 70px;
+    text-align: right;
+    padding: 15px;
+    margin-bottom: 10px ;
+    border-radius: 50px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+button {
+    height: 70px;
+    font-size: 40px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    background: gray;
+    color: #fff;
+}
+
+.operator {
+    background: orange;
+}
