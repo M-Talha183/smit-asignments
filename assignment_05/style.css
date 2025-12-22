@@ -22,7 +22,7 @@ body{
     height: 250px;
     object-fit: cover;
 }
-button{
+.but{
     width: 40%;
     padding: 15px;
     border: 5px solid white;
@@ -36,7 +36,7 @@ button{
 }
 
 
-.card:hover button {
+.card:hover .but {
     background-color: pink;
     color: white;
     cursor: pointer;
@@ -45,4 +45,50 @@ button{
 .card:hover img{
     transform: scale(1.05);
     transition: 0.3s ease;
+}
+
+/*  card 2 css  */
+.card2 {
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+   line-height: 1.3;
+
+}
+.card2 > img{
+    width: 40%;
+    
+}
+.main2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: larger;
+    height: 500px;
+   
+}
+
+.btn2 {
+    width: 90%;
+    padding: 15px;
+    border: 5px solid white;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+
+}
+.card2:hover {
+    background-color: rgb(202, 20, 120);
+    color: white;
+    border-color: pink;
+}
+
+.card2:hover .btn2 {
+    background-color: white;
+    color: pink;
+    border-color: white;
 }
