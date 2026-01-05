@@ -19,7 +19,7 @@ Assignment 06
 Assignment 07
 🔗 https://smit-asignments-07.vercel.app/
 Assignment 08
-🔗 https://smit-asignments-008.vercel.app/
+🔗 https://smit-asignments-08.vercel.app/
 Assignment 09
 🔗 https://smit-asignments-007.vercel.app/
 🛠️ Tech Stack & Tools
