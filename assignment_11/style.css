@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI", sans-serif;
+}
+
+
+body{
+    height:100vh;
+    background-image: url("https://images.stockcake.com/public/8/4/6/846d2b6a-4e7f-4015-a6a6-34e4e681714d_large/snowy-mountain-peak-stockcake.jpg"); /* 👈 yahan image ka path dalo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}
+.navbar{
+    height:70px;
+    padding:0 80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#1e293b;
+}
+
+.navbar ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+.login-btn{
+    border:1px solid #1e293b;
+    padding:8px 22px;
+    border-radius:8px;
+}
+
+.mountains{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:65%;
+    
+}
+
+.login-card{
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:360px;
+    height:420px;
+    background:rgba(255,255,255,0.35);
+    backdrop-filter:blur(18px);
+    border-radius:20px;
+    box-shadow:0 25px 50px rgba(0,0,0,0.15);
+    padding:30px;
+    color:#1e293b;
+}
+
+.close{
+    position:absolute;
+    right:15px;
+    top:15px;
+    width:32px;
+    height:32px;
+    border-radius:50%;
+    background:#334155;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+}
+
+.login-card h2{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.input-group{
+    position:relative;
+    margin-bottom:30px;
+}
+
+.input-group input{
+    width:100%;
+    border:none;
+    background:transparent;
+    border-bottom:2px solid #64748b;
+    padding:10px 30px 10px 5px;
+    outline:none;
+    font-size:14px;
+    color:#0f172a;
+}
+
+.input-group input::placeholder{
+    color:#475569;
+}
+
+.input-group span{
+    position:absolute;
+    right:0;
+    top:8px;
+}
+
+.options{
+    display:flex;
+    justify-content:space-between;
+    font-size:12px;
+    color:#334155;
+    margin-bottom:25px;
+}
+
+.login-card button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#3b82f6;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.login-card button:hover{
+    background:#2563eb;
+}
+
+.footer-text{
+    margin-top:20px;
+    text-align:center;
+    font-size:12px;
+    color:#334155;
+}
+
