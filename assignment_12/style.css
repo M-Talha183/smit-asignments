@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 1050px ;
+    /* height: 100vh; */
+    border: 2px solid black;
+}
+.red{
+    width: 400px;
+    height: 270px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 6px;
+    border: 5px solid black;
+}
+.red1{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+.red2{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+.empty{
+    width: 400px;
+    height: 60px;
+    display: flex;
+}
+.empt-dev{
+    width: 100px;
+    height: 70x;
+    border: 2px solid black;
+}
+
+.blue{
+    width: 400px;
+    height: 270px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 10px;
+        border: 5px solid black;
+
+}
+.blue1{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+.blue2{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+.green{
+    width: 400px;
+    height: 270px;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 10px;
+        border: 5px solid black;
+
+}
+.green1{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+.green2{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+.yellow{
+    width: 400px;
+    height: 270px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 10px;
+        border: 5px solid black;
+
+}
+.yellow1{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+.yellow2{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+.empty2{
+    width: 80px;
+    height: 70px;
+    background-color: aqua ;
+}
+.empt-dev-1{
+    width: 80px;
+    height: 55px;
+    border: 2px solid black;
+}
+

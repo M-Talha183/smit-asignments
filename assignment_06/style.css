@@ -208,3 +208,78 @@ a {
     height: 150px;
    padding-bottom: 15px;
 }
+
+
+/* ========================= */
+/* MOBILE RESPONSIVE (REAL) */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .cont {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+        gap: 15px;
+    }
+
+    /* LANDING SECTION */
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text,
+    .img {
+        width: 100%;
+    }
+
+    .img img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* CARDS */
+    .cr1 {
+        flex-direction: column;
+    }
+
+    .cr11 {
+        width: 90%;
+        height: auto;
+    }
+
+    /* FOOTER */
+    .foot {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .f1,
+    .about,
+    .contact {
+        width: 100%;
+        height: auto;
+    }
+
+    .f11 {
+        justify-content: center;
+    }
+
+    .c1 {
+        justify-content: center;
+    }
+}
